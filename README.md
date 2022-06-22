@@ -2,7 +2,7 @@ _README_
 
 Assignment title: Lap1 Futureproof searchEngine 
 
-![Search Engine](https://imgur.com/QeXbemh)
+![Search Engine](https://i.imgur.com/QeXbemh.jpg)
 
 Installation & usage:
 To install the dependencies required to run the project please first navigate to the server folder and install the required dependencies (into the server folder):
@@ -35,6 +35,6 @@ Image Credits: All image rights belong to google and are merely for the purpose 
 Dev: Currently assigned to Baki & Elliot.
 
 
-![Search Engine](https://imgur.com/qRxs7kT)
+![Search Engine](https://i.imgur.com/qRxs7kT.jpg)
 
-![Search Engine](https://imgur.com/j2Igt8q)
+![Search Engine](https://i.imgur.com/j2Igt8q.png)

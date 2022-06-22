@@ -1,0 +1,44 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#result{
+    margin-top:50px;
+}
+
+header div input {
+    width:50%;
+    border:none;
+}
+
+header div input:hover {
+   text-decoration: none;
+   box-shadow: 0 0 10px 0 rgb(167, 164, 164);
+
+}
+
+input[type="text"]:focus-visible {
+    border: none !important;
+    outline: none;
+}
+
+#result {
+    padding: 2em;
+    line-height: 26px;
+}
+
+button{
+    background-color: rgb(236, 234, 234);
+    border-radius: 5px;
+    border:none;
+    height: 30px;
+    padding: 0 20px;
+    margin:20px 4px;
+}
+button:hover{
+    cursor:pointer;
+    box-shadow: 0 0 10px 0 rgb(181, 176, 176) ;
+}

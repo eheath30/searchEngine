@@ -3,12 +3,13 @@ const listAllButton = document.querySelector('#list-all')
 const searchText = document.getElementById('search-text')
 // Search database
 
-// searchButton.addEventListener('click',function(e){
+listAllButton.addEventListener('click',function(e){
+  console.log('hi mum!')
+    const searchText = document.querySelector('#list-all')
+    window.location.href =  `/client/result.html?s=${searchText.value}`;
 
-//     const searchText = document.querySelector('#search-text')
-//     window.location.href =  `/client/result.html?s=${searchText.value}`;
 
-// })
+})
 
 
 //TODO

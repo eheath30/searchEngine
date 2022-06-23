@@ -26,6 +26,7 @@ Changelog:
 -> Added paths for get requests added.
 -> Search engine working
 -> Upgrading search engine
+-> Search Engine Upgrade working successfully on client side. Still showing minor errors but they are not affecting usage.
 
 Bugs:
 
@@ -39,3 +40,8 @@ Dev: Currently assigned to Baki & Elliot.
 ![Search Engine](https://i.imgur.com/qRxs7kT.jpg)
 
 ![Search Engine](https://i.imgur.com/j2Igt8q.png)
+
+
+# Using Google Search API fetch experimental features on server.
+![Search Engine](https://imgur.com/gallery/TNTFoIq)
+

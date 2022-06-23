@@ -81,8 +81,9 @@ To view the client side, navigate to the client folder and either open index.htm
 
 #### future ideas:
 ~~-> I'm feeling lucky button~~
--> Improved error handling (alert for out of range searches on database)
--> jest testing
+-> Improved error handling (alert for out of range searches on database).
+-> Code refactoring and optimisation.
+-> jest testing.
 -> additional styling and new features!
 
 #### Bugs:

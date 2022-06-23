@@ -8,6 +8,7 @@ function searchData(title) {
               const element = results[index];
               const div = document.createElement('div')
               div.textContent = element.title;
+              div.setAttribute('style', 'padding-bottom: 5vh');
               document.getElementById('result').append(div)
           }
 

@@ -26,7 +26,8 @@ input[type="text"]:focus-visible {
 }
 
 #result {
-    padding: 2em;
+    padding-left: 10vw;
+    padding-right: 10vw;
     line-height: 26px;
 }
 
@@ -41,4 +42,27 @@ button{
 button:hover{
     cursor:pointer;
     box-shadow: 0 0 10px 0 rgb(181, 176, 176) ;
+}
+
+.google-photo {
+    padding-left: 2vw;
+}
+
+
+    .header-container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    button {
+        margin-left: 8vw;
+    }
+
+    @media only screen
+and (min-width : 1224px) {
+
+ #result {
+    padding-left: 10vw;
+    padding-right: 10vw;
+ }
 }

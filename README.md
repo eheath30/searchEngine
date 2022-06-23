@@ -27,11 +27,20 @@ Changelog:
 -> Search engine working
 -> Upgrading search engine
 -> Search Engine Upgrade working successfully on client side. Still showing minor errors but they are not affecting usage.
+-> Search Engine Working with Google Search JSON API.
+
+<br>
+
+##### future ideas
+-> I'm feeling lucky button
+-> Improved error handling
+-> jest testing
 
 Bugs:
 
 - multiple bugs identified. More coming soon...
 - key issues: speed | security | flexability | scalability
+- **Currently no error handling**
 
 
 
@@ -46,9 +55,10 @@ Bugs:
 # Google Search JSON API
 - Using Google Search API fetch experimental features for fast & secure server-side data collection.
 
-<br>
+<b
 
-![Search Engine](https://i.imgur.com/TNTFoIq.jpg)
+![Search Engine](https://i.imgur.com/zUgmxr7.png)
+
 
 
 

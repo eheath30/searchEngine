@@ -43,5 +43,5 @@ Dev: Currently assigned to Baki & Elliot.
 
 
 # Using Google Search API fetch experimental features on server.
-![Search Engine](https://imgur.com/gallery/TNTFoIq)
+![Search Engine](https://i.imgur.com/TNTFoIq.jpg)
 

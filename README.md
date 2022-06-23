@@ -1,67 +1,123 @@
-_README_
+### _README_   
 
-Assignment title: Lap1 Futureproof searchEngine 
+**Content:**
 
-![Search Engine](https://i.imgur.com/QeXbemh.jpg)
+[Assignment title](#assignment-title-lap1-futureproof-searchengine)
 
-Installation & usage:
-To install the dependencies required to run the project please first navigate to the server folder and install the required dependencies (into the server folder):
-- expressjs
-- cors
-- nodejs
-- npm
-- nodemon (optional)
+[Installation & usage](installation-and-usage)
 
+[How to run this project](how-to-run-this-project)
 
-How to run this project:
-After the above, whilst still in the server folder, please run the command 'npm run dev'. This command will start the server running.
+[Changelog](changelog)
 
-To view the client side, navigate to the client folder and either open index.html in the browser or run it if you are using an IDE.
-
-
-Changelog:
-
--> Dependencies installed.
--> Styling & html added.
--> Added paths for get requests added.
--> Search engine working
--> Upgrading search engine
--> Search Engine Upgrade working successfully on client side. Still showing minor errors but they are not affecting usage.
--> Search Engine Working with Google Search JSON API.
+[Google Search JSON API](google-search-json-api)
 
 <br>
 
-##### future ideas
--> I'm feeling lucky button
--> Improved error handling
+
+# Assignment title: Lap1 Futureproof searchEngine
+
+<br>
+
+<br>
+
+<br>
+
+
+![Search Engine](https://i.imgur.com/QeXbemh.jpg)
+
+<br>
+
+### Installation and usage:
+
+<br>
+
+##### pre-requisites for running this program.
+- In order to run this program you must have nodejs installed and your own google search json api key which can be obtained for free from the google api library.
+- Once you have your api key, navigate to server/app.js line:98 and insert your own api key in place of <ADD-API-KEY-HERE>.
+
+To install the dependencies required to run the project please navigate to the server folder and install the required dependencies (into the server folder, preferably using npm):
+- expressjs
+- cors
+- npm
+- nodemon (optional)
+
+<br>
+
+
+### How to run this project:
+
+<br>
+
+After the above, whilst still in the server folder, please run the command `npm run dev`. This command will start the server running.
+
+<br>
+
+To view the client side, navigate to the client folder and either open index.html in the browser or run it if you are using an IDE.
+
+<br>
+
+### Changelog:
+
+- Dependencies installed.
+- Styling & html added.
+- Added paths for get requests added.
+- Search engine working
+- Upgrading search engine
+- Search Engine Upgrade working successfully on client side. Still showing minor errors but they are not affecting usage.
+- Search Engine Working with Google Search JSON API.
+- Search Engine working with both Google Search JSON API & Server Database Search.
+
+<br>
+
+#### future ideas:
+~~-> I'm feeling lucky button~~
+-> Improved error handling (alert for out of range searches on database)
 -> jest testing
+-> additional styling and new features!
 
-Bugs:
+#### Bugs:
 
-- multiple bugs identified. More coming soon...
+~~- multiple bugs identified. More coming soon...~~
 - key issues: speed | security | flexability | scalability
-- **Currently no error handling**
+- - **Currently minimal error handling**
 
 
 
 ![Search Engine](https://i.imgur.com/qRxs7kT.jpg)
 
-![Search Engine](https://i.imgur.com/j2Igt8q.png)
+<br>
+
+![Search Engine](https://i.imgur.com/1IHKFWH.jpg)
 
 <br>
+
 <hr>
+
 <br>
 
 # Google Search JSON API
 - Using Google Search API fetch experimental features for fast & secure server-side data collection.
 
-<b
+<b>
 
 ![Search Engine](https://i.imgur.com/zUgmxr7.png)
 
 
-
+<b>
 
 Image Credits: All images are licensed to and belong to google, they are merely being used for the purpose of learning.
+  
+<b>
+  
+<hr>
+  
+<br>
 
 Developers: Baki & Elliot.
+  
+<b>
+  
+<hr>
+  
+<b>

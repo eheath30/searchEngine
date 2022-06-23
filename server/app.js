@@ -100,8 +100,8 @@ app.post('/pages/search', (req, res)=>{
 });
 
 app.get('/search', (req, res) => {
-
-  fetch(`https://www.googleapis.com/customsearch/v1?key=AIzaSyBCLLL_YvsSDlEZG3l2DNHryH1ow-lw2Tc&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${searchTerm[0].value}`)
+//TODO Remember to insert API-KEY!
+  fetch(`https://www.googleapis.com/customsearch/v1?key=<INSERT-API-KEY-HERE>&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${searchTerm[0].value}`)
   .then(res => res.json())
   .then(data => {res.send(data)
   console.log(data);
@@ -112,8 +112,8 @@ app.get('/search', (req, res) => {
 
 
 
-
-// resultList = `https://www.googleapis.com/customsearch/v1?key=AIzaSyBk8zJb9iVWE6KxobRc6h2x2MXrb2jn2ME&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${result}&callback=hndlr`;
+// Original server-side method for invoking search-results was adding a callback to the url
+// resultList = `https://www.googleapis.com/customsearch/v1?key=<INSERT-API-KEY-HERE>&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${result}&callback=hndlr`;
 
 
 // function hndlr(res) {

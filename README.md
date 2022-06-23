@@ -118,7 +118,7 @@ To view the client side, navigate to the client folder and either open index.htm
 
 <b>
 
-Image Credits: All images are licensed to and belong to google, they are merely being used for the purpose of learning.
+Image Credits: All images used in this project belong to google, they are merely being used for the purpose of a study project.
   
 <b>
   

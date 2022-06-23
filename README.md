@@ -39,6 +39,7 @@
 ##### pre-requisites for running this program.
 - In order to run this program you must have nodejs installed and your own google search json api key which can be obtained for free from the google api library.
 - Once you have your api key, navigate to server/app.js line:98 and insert your own api key in place of <ADD-API-KEY-HERE>.
+- Optional: If you wish to have a functioning return-home button then go to client/result.html, line 14: and add the url you are running client/index.html from to the anchor tag href ` 
 
 To install the dependencies required to run the project please navigate to the server folder and install the required dependencies (into the server folder, preferably using npm):
 - expressjs

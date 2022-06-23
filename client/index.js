@@ -4,18 +4,12 @@ const searchText = document.getElementById('search-text')
 // Search database
 
 listAllButton.addEventListener('click',function(e){
-  console.log('hi mum!')
+  e.preventDefault();
     const searchText = document.querySelector('#list-all')
     window.location.href =  `/client/result.html?s=${searchText.value}`;
 
 
 })
-
-
-//TODO
-// switch between event listeners as required and comment the other out
-//TODO
-
 
 function hndlr(res) {
   fetch(`http://localhost:3000/search`)

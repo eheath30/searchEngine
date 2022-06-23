@@ -5,6 +5,7 @@ const { ALL } = require("dns");
 const { application } = require("express");
 
 app.use(express.json());
+app.use(cors());
 
 pages = [
   {
@@ -59,12 +60,11 @@ pages = [
   },
 ];
 
-app.use(cors());
-
-
 const search = "Sports";
 
-// console.log(pages.filter((page) => page.title.includes(search)));
+app.get('/pages/all', function (req, res) {
+  res.json(pages);
+})
 
 app.get("/pages/:id", (req, res) =>
   res.send(pages.filter((pages) => pages.id == req.params.id))
@@ -79,13 +79,7 @@ app.get("/pages/all", function (req, res) {
   res.json(pages);
 });
 
-
-
-//TODO
-
-
 const searchTerm = [];
-
 let result;
 
 app.post('/pages/search', (req, res)=>{
@@ -101,53 +95,13 @@ app.post('/pages/search', (req, res)=>{
 
 app.get('/search', (req, res) => {
 
-  fetch(`https://www.googleapis.com/customsearch/v1?key=AIzaSyBCLLL_YvsSDlEZG3l2DNHryH1ow-lw2Tc&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${searchTerm[0].value}`)
+  fetch(`https://www.googleapis.com/customsearch/v1?key=<ADD-API-KEY-HERE>&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${searchTerm[0].value}`)
   .then(res => res.json())
   .then(data => {res.send(data)
   console.log(data);
   })
 
   })
-
-
-
-
-
-// resultList = `https://www.googleapis.com/customsearch/v1?key=AIzaSyBk8zJb9iVWE6KxobRc6h2x2MXrb2jn2ME&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${result}&callback=hndlr`;
-
-
-// function hndlr(res) {
-//   try {
-//     console.log(res.searchInformation)
-
-//     document.getElementById('content').innerHTML += `<div style="color: grey;">About ${res.searchInformation.formattedTotalResults} results(${res.searchInformation.formattedSearchTime} seconds)`;
-
-
-//     for (let i = 0; i < res.items.length; i++) {
-
-//       document.getElementById('content').innerHTML
-//         += `<br><a style="color: grey; font-size: 12px; text-decoration: none;" href=${res.items[i].link} target="_blank">
-// ${res.items[i].link}
-// </a>
-// <a target="_blank" href=${res.items[i].link} style="text-decoration: none;">
-// <h2 style="margin-top: 2px">
-// ${res.items[i].title}
-// </h2>
-// </a>
-// <div style="margin-top: 8px;">
-// ${res.items[i].htmlSnippet}</div>`
-//     }
-
-
-//   } catch(error) {
-//     // document.getElementById('content').innerHTML = ''
-//     console.log(error)
-//   }
-// }
-
-
-
-
 
 app.listen(3000, () =>
   console.log(`\nExpress departing now from port 3000!\n`)

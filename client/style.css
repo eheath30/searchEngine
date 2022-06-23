@@ -146,3 +146,50 @@ footer{
 .footer-nav ul a:hover{
     text-decoration: underline;
 }
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+    .mustContainTheForce {
+        margin: left
+    }
+
+}
+
+
+
+/* iPads (landscape) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+  .mustContainTheForce {
+    margin-left: 12vw;
+    margin-right: 5vw;
+}
+}
+
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 1224px) {
+
+    .mustContainTheForce {
+        margin-left: 10vw;
+    }
+
+}
+
+/* Large screens */
+@media only screen
+and (min-width : 1824px) {
+
+    .mustContainTheForce {
+        margin-left: 18vw;
+    }
+
+}

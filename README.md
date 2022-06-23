@@ -25,6 +25,7 @@ Changelog:
 -> Styling & html added.
 -> Added paths for get requests added.
 -> Search engine working
+-> Upgrading search engine
 
 Bugs:
 

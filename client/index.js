@@ -34,11 +34,11 @@ function hndlr(res) {
       ${res.items[i].link}
       </a>
       <a target="_blank" href=${res.items[i].link} style="text-decoration: none;">
-      <h2 style="margin-top: 2px">
+      <h2 style="font-family: Poppins; margin-top: -1px;" >
       ${res.items[i].title}
       </h2>
       </a>
-      <div style="margin-top: 8px;">
+      <div style="margin-top: -15px; margin-bottom: 15px;">
       ${res.items[i].htmlSnippet}</div>`
           }
 

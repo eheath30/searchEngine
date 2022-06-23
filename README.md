@@ -1,19 +1,21 @@
-### _README_   
+                                                                                               
+### _README_  
 
 **Content:**
 
-[Assignment title](#assignment-title-lap1-futureproof-searchengine)
+[1. Assignment title](#1)
 
-[Installation & usage](installation-and-usage)
+[2. Installation & usage](#2)
 
-[How to run this project](how-to-run-this-project)
+[3. How to run this project](#3)
 
-[Changelog](changelog)
+[4. Changelog](#4)
 
-[Google Search JSON API](google-search-json-api)
+[5. Google Search JSON API](#5)
 
 <br>
 
+###### 1.          
 
 # Assignment title: Lap1 Futureproof searchEngine
 
@@ -27,6 +29,8 @@
 ![Search Engine](https://i.imgur.com/QeXbemh.jpg)
 
 <br>
+
+#### 2.
 
 ### Installation and usage:
 
@@ -44,7 +48,9 @@ To install the dependencies required to run the project please navigate to the s
 
 <br>
 
+#### 3.
 
+  
 ### How to run this project:
 
 <br>
@@ -57,6 +63,9 @@ To view the client side, navigate to the client folder and either open index.htm
 
 <br>
 
+#### 4.
+
+  
 ### Changelog:
 
 - Dependencies installed.
@@ -95,7 +104,10 @@ To view the client side, navigate to the client folder and either open index.htm
 <hr>
 
 <br>
+  
+#### 5.
 
+  
 # Google Search JSON API
 - Using Google Search API fetch experimental features for fast & secure server-side data collection.
 
@@ -114,10 +126,13 @@ Image Credits: All images are licensed to and belong to google, they are merely 
   
 <br>
 
-Developers: Baki & Elliot.
+  
+<hr>
   
 <b>
   
-<hr>
+#  [↑ top](#readme)
+  
+<b>
   
 <b>

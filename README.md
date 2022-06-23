@@ -31,17 +31,27 @@ Changelog:
 Bugs:
 
 - multiple bugs identified. More coming soon...
+- key issues: speed | security | flexability | scalability
 
-Image Credits: All image rights belong to google and are merely for the purpose of study.
-
-Dev: Currently assigned to Baki & Elliot.
 
 
 ![Search Engine](https://i.imgur.com/qRxs7kT.jpg)
 
 ![Search Engine](https://i.imgur.com/j2Igt8q.png)
 
+<br>
+<hr>
+<br>
 
-# Using Google Search API fetch experimental features on server.
+# Google Search JSON API
+- Using Google Search API fetch experimental features for fast & secure server-side data collection.
+
+<br>
+
 ![Search Engine](https://i.imgur.com/TNTFoIq.jpg)
 
+
+
+Image Credits: All images are licensed to and belong to google, they are merely being used for the purpose of learning.
+
+Developers: Baki & Elliot.

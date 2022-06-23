@@ -125,9 +125,6 @@ Image Credits: All images are licensed to and belong to google, they are merely 
 <hr>
   
 <br>
-
-  
-<hr>
   
 <b>
   

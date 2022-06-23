@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors');
 const { ALL } = require('dns');
 const { application } = require('express');
+var bodyParser = require('body-parser')
 
 
 
@@ -42,5 +43,10 @@ pages = [
  res.json(pages)
   })
 
+
+
+  app.post('/pages/search', (req, res)=>{
+  res.json(req)
+  });
 
   app.listen(3000, () => console.log(`\nExpress departing now from port 3000!\n`))

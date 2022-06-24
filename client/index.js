@@ -1,6 +1,7 @@
 const searchButton = document.querySelector('#search-btn')
 const listAllButton = document.querySelector('#list-all')
 const searchText = document.getElementById('search-text')
+
 // Search database
 
 listAllButton.addEventListener('click',function(e){
@@ -10,6 +11,8 @@ listAllButton.addEventListener('click',function(e){
 
 
 })
+
+// Recieves value and displays
 
 function hndlr(res) {
   fetch(`http://localhost:3000/search`)

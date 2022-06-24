@@ -1,3 +1,5 @@
+// dependencies
+
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -6,6 +8,8 @@ const { application } = require("express");
 
 app.use(express.json());
 app.use(cors());
+
+// core database
 
 pages = [
   {
@@ -60,7 +64,13 @@ pages = [
   },
 ];
 
+// current database search keyword
+
 const search = "Sports";
+
+console.log(pages.filter(page => page.title.includes(search)))
+
+//expressjs routing
 
 app.get('/pages/all', function (req, res) {
   res.json(pages);
@@ -93,15 +103,18 @@ app.post('/pages/search', (req, res)=>{
 
 });
 
+// node fetch
+
 app.get('/search', (req, res) => {
 
-  fetch(`https://www.googleapis.com/customsearch/v1?key=<ADD-API-KEY-HERE>&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${searchTerm[0].value}`)
+  fetch(`https://www.googleapis.com/customsearch/v1?key=<INSERT-API-KEY-HERE>&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${searchTerm[0].value}`)
   .then(res => res.json())
   .then(data => {res.send(data)
   console.log(data);
   })
 
   })
+
 
 app.listen(3000, () =>
   console.log(`\nExpress departing now from port 3000!\n`)
